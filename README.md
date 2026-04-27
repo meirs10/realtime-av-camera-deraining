@@ -8,6 +8,30 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 
 ---
 
+## 🎥 Showcase & Examples
+
+### Real-Time Inference
+Below is a demonstration of the model's performance on rainy dashcam footage.
+
+<video src="./Inference.mp4" controls="controls" style="max-width: 100%;">
+  Your browser does not support the video tag.
+</video>
+*(Note: If the video does not play in your Markdown viewer, please open the `Inference.mp4` file included in the repository directly).*
+
+### Static Sample Output
+Example of our tiled inference approach on test data (combining multiple patches for high-resolution recovery):
+![Sample Output](testing/test_results/stage2_test_tiled/sample_scene_004_front-forward_frame0000.png)
+
+---
+
+## 💾 Pre-trained Model
+
+You can evaluate the best performing model directly without needing to retrain. The final trained weights for the Stage 2 model are located at:
+
+👉 `training/checkpoints/stage2/best_stage2.pth`
+
+---
+
 ## 🚀 Key Features
 - **⚡ Real-Time Performance**: Achieves **>30 FPS** on standard GPUs (RTX 3060/4090).
 - **🏗️ Two-Stage Curriculum Training**:
