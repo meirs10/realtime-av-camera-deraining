@@ -4,7 +4,7 @@
 **Real-time video restoration for autonomous driving.**
 This project implements a deep learning pipeline to remove raindrops, streaks, and fog from AV camera footage, restoring visibility for both human drivers and downstream computer vision tasks (e.g., object detection).
 
-The model is built on a **MobileNetV3-UNet** architecture, optimized for speed and deployed with a custom **Degradation** pipeline to generate synthetic training data from clean driving sequences.
+The model is built on a **MobileNetV3-UNet** architecture, optimized for speed and trained with a custom **Synthetic Degradation** pipeline that generates realistic paired training data from clean driving sequences.
 
 ---
 
@@ -12,7 +12,7 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 
 ### Real-Time Inference
 
-**🎥 Video Showcase: Degraded AV camera footage Footage vs. Model's Restored Output**
+**🎥 Video Showcase: Degraded AV Camera Footage vs. Model's Restored Output**
 
 <table>
   <tr>
@@ -63,7 +63,7 @@ You can evaluate the best performing model directly without needing to retrain. 
 - **🏗️ Two-Stage Curriculum Training**:
   - **Stage 1**: Structural Recovery (Pixel Loss only).
   - **Stage 2**: Texture Refinement (SSIM + Edge + Perceptual Loss).
-- **🌧️ Synthetic "Crapification" Pipeline**:
+- **🌧️ Synthetic Degradation Pipeline**:
   - Generates realistic rain streaks, droplets, and depth-based fog.
   - Uses **MiDaS** for depth estimation and **RainStreakDB** for masks.
 - **🎥 Temporal Consistency**:
@@ -96,34 +96,32 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 
 ## 🏃 Usage
 
-### 1. Data Generation ("Degradation")
-Generate synthetic rainy data from your clean videos.
-```bash
-python degradation_pipeline/per_video_degradation_pipeline.py
-```
+### 1. Data Generation
+Generate synthetic rainy data from your clean videos by running:
+
+📓 `degradation_pipeline/per_video_degradation_pipeline.ipynb`
 
 ### 2. Training
 The model is trained in two stages for stability.
 
 **Stage 1: Structural Warmup**
-```bash
-python training/train_stage_1.py
-```
+
+📓 `training/train_stage_1.ipynb`
+
 *Goal: Remove rain and restore basic scene structure (loss: L1).*
 
 **Stage 2: Fine-Tuning**
-```bash
-python training/train_stage_2.py
-# OR for ConvLSTM experiment:
-python training/experiments/train_with_convlstm.py
-```
+
+📓 `training/train_stage_2.ipynb`
+
 *Goal: Recover fine textures (asphalt, signs) and sharpen edges using Perceptual + SSIM losses.*
+
+> For the ConvLSTM temporal consistency experiment: `training/experiments/train_with_convlstm.py`
 
 ### 3. Testing & Evaluation
 Run inference on the test set and calculate metrics (PSNR, SSIM).
-```bash
-python testing/testing.py
-```
+
+📓 `testing/testing.ipynb`
 
 ---
 
