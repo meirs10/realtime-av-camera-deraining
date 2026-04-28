@@ -19,7 +19,21 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 ### Static Sample Output
 
 **🖼️ Image Comparison: Ground Truth, Artificially Degraded (Rain/Fog), and Model's Restored Output**
-![Sample Output](testing/test_results/stage2_test_tiled/sample_scene_004_front-forward_frame0000.png)
+
+<table>
+  <tr>
+    <td width="75%"><img src="testing/test_results/stage2_test_tiled/panel_1.jpg"></td>
+    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Crapified</h2></td>
+  </tr>
+  <tr>
+    <td width="75%"><img src="testing/test_results/stage2_test_tiled/panel_2.jpg"></td>
+    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Model Output</h2></td>
+  </tr>
+  <tr>
+    <td width="75%"><img src="testing/test_results/stage2_test_tiled/panel_3.jpg"></td>
+    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Ground Truth</h2></td>
+  </tr>
+</table>
 
 ---
 
