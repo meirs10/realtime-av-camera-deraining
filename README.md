@@ -16,16 +16,16 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 
 <table>
   <tr>
-    <td width="75%" rowspan="3">
+    <td width="80%" rowspan="3">
       <video src="https://github.com/user-attachments/assets/1d5add9f-28b9-4baa-ab77-7cf0b4d67ee6" width="100%" controls></video>
     </td>
-    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Crapified</h2></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Crapified</h3></td>
   </tr>
   <tr>
-    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Model Output</h2></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Model&nbsp;Output</h3></td>
   </tr>
   <tr>
-    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Ground Truth</h2></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Ground&nbsp;Truth</h3></td>
   </tr>
 </table>
 
@@ -35,16 +35,16 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 
 <table>
   <tr>
-    <td width="75%"><img src="testing/test_results/stage2_test_tiled/panel_1.jpg"></td>
-    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Crapified</h2></td>
+    <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_1.jpg"></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Crapified</h3></td>
   </tr>
   <tr>
-    <td width="75%"><img src="testing/test_results/stage2_test_tiled/panel_2.jpg"></td>
-    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Model Output</h2></td>
+    <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_2.jpg"></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Model&nbsp;Output</h3></td>
   </tr>
   <tr>
-    <td width="75%"><img src="testing/test_results/stage2_test_tiled/panel_3.jpg"></td>
-    <td width="25%" align="left" valign="middle"><h2><span style="color:#4f80ff;">▌</span> Ground Truth</h2></td>
+    <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_3.jpg"></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Ground&nbsp;Truth</h3></td>
   </tr>
 </table>
 
