@@ -1,4 +1,4 @@
-# 🚗 Dashcam Raindrop Removal
+# 🚗 Real Time AV Camera Deraining
 
 ## 📌 Project Overview
 **Real-time video restoration for autonomous driving.**
@@ -96,7 +96,7 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 
 ## 🏃 Usage
 
-### 1. Data Generation ("Crapification")
+### 1. Data Generation ("Degradation")
 Generate synthetic rainy data from your clean videos.
 ```bash
 python degradation_pipeline/per_video_crapification_pipeline.py
