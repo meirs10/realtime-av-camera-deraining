@@ -14,9 +14,7 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 
 **🎥 Video Showcase: Degraded Dashcam Footage vs. Model's Restored Output**
 
-<video src="./Inference.mp4" width="320" height="240" controls></video>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yWeevdKSnwA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video src="./Inference.mp4" width="1920" height="3240" controls></video>
 
 ### Static Sample Output
 
