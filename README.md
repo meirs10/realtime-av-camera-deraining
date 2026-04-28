@@ -19,13 +19,13 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
     <td width="80%" rowspan="3">
       <video src="https://github.com/user-attachments/assets/1d5add9f-28b9-4baa-ab77-7cf0b4d67ee6" width="100%" controls></video>
     </td>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Degraded Input</h3></td>
+    <td width="20%" align="left" valign="middle" nowrap><h3>▌&nbsp;Degraded&nbsp;Input</h3></td>
   </tr>
   <tr>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Model&nbsp;Output</h3></td>
+    <td width="20%" align="left" valign="middle" nowrap><h3>▌&nbsp;Model&nbsp;Output</h3></td>
   </tr>
   <tr>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Ground&nbsp;Truth</h3></td>
+    <td width="20%" align="left" valign="middle" nowrap><h3>▌&nbsp;Ground&nbsp;Truth</h3></td>
   </tr>
 </table>
 
@@ -36,15 +36,15 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 <table>
   <tr>
     <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_1.jpg"></td>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Degraded Input</h3></td>
+    <td width="20%" align="left" valign="middle" nowrap><h3>▌&nbsp;Degraded&nbsp;Input</h3></td>
   </tr>
   <tr>
     <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_2.jpg"></td>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Model&nbsp;Output</h3></td>
+    <td width="20%" align="left" valign="middle" nowrap><h3>▌&nbsp;Model&nbsp;Output</h3></td>
   </tr>
   <tr>
     <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_3.jpg"></td>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Ground&nbsp;Truth</h3></td>
+    <td width="20%" align="left" valign="middle" nowrap><h3>▌&nbsp;Ground&nbsp;Truth</h3></td>
   </tr>
 </table>
 
