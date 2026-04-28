@@ -115,7 +115,7 @@ python training/train_stage_1.py
 ```bash
 python training/train_stage_2.py
 # OR for ConvLSTM experiment:
-python training/training_attempts/train_with_convlstm.py
+python training/experiments/train_with_convlstm.py
 ```
 *Goal: Recover fine textures (asphalt, signs) and sharpen edges using Perceptual + SSIM losses.*
 
