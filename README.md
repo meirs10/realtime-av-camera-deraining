@@ -19,7 +19,7 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
     <td width="80%" rowspan="3">
       <video src="https://github.com/user-attachments/assets/1d5add9f-28b9-4baa-ab77-7cf0b4d67ee6" width="100%" controls></video>
     </td>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Crapified</h3></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Degraded Input</h3></td>
   </tr>
   <tr>
     <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Model&nbsp;Output</h3></td>
@@ -36,7 +36,7 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 <table>
   <tr>
     <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_1.jpg"></td>
-    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Crapified</h3></td>
+    <td width="20%" align="left" valign="middle"><h3>▌&nbsp;Degraded Input</h3></td>
   </tr>
   <tr>
     <td width="80%"><img src="testing/test_results/stage2_test_tiled/panel_2.jpg"></td>
@@ -99,7 +99,7 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 ### 1. Data Generation ("Crapification")
 Generate synthetic rainy data from your clean videos.
 ```bash
-python crapification/per_video_crapification_pipeline.py
+python degradation_pipeline/per_video_crapification_pipeline.py
 ```
 
 ### 2. Training

@@ -1,4 +1,4 @@
-# crapification/stage_droplets.py
+# degradation_pipeline/stage_droplets.py
 
 import os
 import cv2

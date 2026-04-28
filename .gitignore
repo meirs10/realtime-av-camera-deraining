@@ -29,8 +29,8 @@ videos/
 # EXTERNAL DEPENDENCIES
 # =======================
 # Rain rendering textures (3rd party)
-crapification/rain-rendering/3rdparty/
-crapification/rain-rendering/rainstreakdb/
+degradation_pipeline/rain-rendering/3rdparty/
+degradation_pipeline/rain-rendering/rainstreakdb/
 
 # =======================
 # PYTHON
@@ -120,7 +120,7 @@ wandb/
 # PROGRESS/CONFIG FILES
 # =======================
 # Progress tracking (can be regenerated)
-crapification/pipeline_progress.json
+degradation_pipeline/pipeline_progress.json
 *_progress.json
 
 # Scene configurations (can be regenerated from code with seed=42)

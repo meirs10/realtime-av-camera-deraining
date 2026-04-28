@@ -6,7 +6,7 @@ Key properties:
 - Starts from Stage 2 checkpoint: checkpoints/best_stage2.pth
 - Uses video clips (per_frame = False) with temporal loss enabled.
 - 512x512 crops only (no multi-scale).
-- New crapification is generated at the START and every 3 epochs via
+- New degradation_pipeline is generated at the START and every 3 epochs via
   train_crapification_pipeline.main().
 - Loss weights (initial):
     alpha  = 1.0   (pixel / Charbonnier)
@@ -72,7 +72,7 @@ print(f"Using device: {device}")
 def create_dataloaders():
     """
     Helper to (re)create train/val datasets and loaders.
-    Called initially and after each new crapification.
+    Called initially and after each new degradation_pipeline.
     """
 
     print("\nCreating datasets (video mode, 512x512 crops only)...")
