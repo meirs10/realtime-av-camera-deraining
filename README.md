@@ -82,8 +82,8 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/meirs10/DashcamRaindropsRemoval.git
-   cd DashcamRaindropsRemoval
+   git clone https://github.com/meirs10/realtime-av-camera-deraining.git
+   cd realtime-av-camera-deraining
    ```
 
 2. **Install dependencies**:
@@ -99,7 +99,7 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 ### 1. Data Generation ("Degradation")
 Generate synthetic rainy data from your clean videos.
 ```bash
-python degradation_pipeline/per_video_crapification_pipeline.py
+python degradation_pipeline/per_video_degradation_pipeline.py
 ```
 
 ### 2. Training
