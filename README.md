@@ -1,10 +1,10 @@
-# 🚗 Real Time AV Camera Deraining
+# 🚗 Real-Time AV Camera Deraining
 
 ## 📌 Project Overview
 **Real-time video restoration for autonomous driving.**
-This project implements a deep learning pipeline to remove raindrops, streaks, and fog from dashcam footage, restoring visibility for both human drivers and downstream computer vision tasks (e.g., object detection).
+This project implements a deep learning pipeline to remove raindrops, streaks, and fog from AV camera footage, restoring visibility for both human drivers and downstream computer vision tasks (e.g., object detection).
 
-The model is built on a **MobileNetV3-UNet** architecture, optimized for speed and deployed with a custom **"Crapification"** pipeline to generate synthetic training data from clean driving sequences.
+The model is built on a **MobileNetV3-UNet** architecture, optimized for speed and deployed with a custom **Degradation** pipeline to generate synthetic training data from clean driving sequences.
 
 ---
 
@@ -12,7 +12,7 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 
 ### Real-Time Inference
 
-**🎥 Video Showcase: Degraded Dashcam Footage vs. Model's Restored Output**
+**🎥 Video Showcase: Degraded AV camera footage Footage vs. Model's Restored Output**
 
 <table>
   <tr>
