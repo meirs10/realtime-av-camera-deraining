@@ -48,6 +48,10 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
   </tr>
 </table>
 
+### Degradation Pipeline Samples
+
+The `degradation_pipeline/combination_inspection/` folder contains visual samples of every fog/rain/droplet intensity combination the pipeline can produce — useful for verifying the synthetic data quality before training.
+
 ---
 
 ## 💾 Pre-trained Model
@@ -100,6 +104,8 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 Generate synthetic rainy data from your clean videos by running:
 
 📓 `degradation_pipeline/per_video_degradation_pipeline.ipynb`
+
+
 
 ### 2. Training
 The model is trained in two stages for stability.
