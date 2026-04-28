@@ -11,16 +11,15 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 ## 🎥 Showcase & Examples
 
 ### Real-Time Inference
+
 **🎥 Video Showcase: Degraded Dashcam Footage vs. Model's Restored Output**
+<video src="./Inference.mp4" controls width="100%"></video>
 
-[![Real-Time Inference Showcase](https://img.youtube.com/vi/yWeevdKSnwA/0.jpg)](https://www.youtube.com/shorts/yWeevdKSnwA)
-
-*(Click the thumbnail to watch the YouTube Shorts demonstration)*
+*(Note: PyCharm and other local markdown viewers usually cannot play videos. However, once you push this to GitHub, the video will play beautifully in full, uncompressed quality!)*
 
 ### Static Sample Output
-**🖼️ Image Comparison: Ground Truth, Artificially Degraded (Rain/Fog), and Model's Restored Output**
 
-Example of our tiled inference approach on test data (combining multiple patches for high-resolution recovery):
+**🖼️ Image Comparison: Ground Truth, Artificially Degraded (Rain/Fog), and Model's Restored Output**
 ![Sample Output](testing/test_results/stage2_test_tiled/sample_scene_004_front-forward_frame0000.png)
 
 ---
