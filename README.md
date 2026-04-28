@@ -82,7 +82,7 @@ This project utilizes high-quality urban driving sequences from the **Wayve Open
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/DashcamRaindropsRemoval.git
+   git clone https://github.com/meirs10/DashcamRaindropsRemoval.git
    cd DashcamRaindropsRemoval
    ```
 
