@@ -13,9 +13,7 @@ The model is built on a **MobileNetV3-UNet** architecture, optimized for speed a
 ### Real-Time Inference
 
 **🎥 Video Showcase: Degraded Dashcam Footage vs. Model's Restored Output**
-<video src="./Inference.mp4" controls width="100%"></video>
-
-*(Note: PyCharm and other local markdown viewers usually cannot play videos. However, once you push this to GitHub, the video will play beautifully in full, uncompressed quality!)*
+[![Real-Time Inference Showcase](https://img.youtube.com/vi/yWeevdKSnwA/hqdefault.jpg)](https://www.youtube.com/shorts/yWeevdKSnwA)
 
 ### Static Sample Output
 
